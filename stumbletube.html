@@ -4,15 +4,25 @@
 </head>
 
 <body>
-  {{> hello}}
+  <!--{{> hello}}-->
   <div id="ytplayer">
   	You need to have flash 8 installed
   </div>
-  <div id="load">Play</div>
-  <div id="stop">Stop</div>
-  <div id="resume">Resume</div>
-  <div id="data">Data</div>
   <script type="text/javascript" src="video.js"></script>
+
+  <div>
+  <div class="actionbutton" id="load">Play</div>
+  <div class="actionbutton" id="stop">Stop</div>
+  <div class="actionbutton" id="resume">Resume</div>
+  <div class="actionbutton" id="data">Related</div>
+  <div class="actionbutton" id="info">Info</div>
+	</div>
+
+  <div>
+  	<input id="search" type="text" placeholder="Enter a search term">
+  	<button id="query" type="submit" class="btn">Search</button>
+  </div>
+  
 </body>
 
 <template name="hello">

@@ -1,4 +1,4 @@
-div {
+.actionbutton {
 	height: 100px;
 	width: 100px;
 	background-color: blue;
@@ -15,4 +15,19 @@ div {
 
 #data {
 	background-color: yellow;
+}
+
+#ytplayer {
+	width: 70%;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#search {
+	padding-top: 2px;
+}
+
+#info {
+	background-color: purple;
 }
