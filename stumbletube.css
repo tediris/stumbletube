@@ -1,1 +1,18 @@
-/* CSS declarations go here */
+div {
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	float: left;
+}
+
+#stop {
+	background-color: red;
+}
+
+#resume {
+	background-color: green;
+}
+
+#data {
+	background-color: yellow;
+}
