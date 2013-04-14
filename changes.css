@@ -1,0 +1,15 @@
+/* CSS declarations go here */
+#videotitle {
+	padding-left: 27px;
+}
+body {
+	background-color: black;
+}
+.hero-unit {
+	position: relative;
+	float: center;
+	background-color: black;
+}
+.introtext {
+	color: #CDCDCD;
+}
